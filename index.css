@@ -1,0 +1,110 @@
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Positioning examples */
+.position-example {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Specific positioning */
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.fixed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #e74c3c;
+}
+
+/* Overflow examples */
+.overflow-example .overflow-auto {
+  width: 200px;
+  height: 100px;
+  overflow: auto;
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #bdc3c7;
+}
+
+.overflow-example .overflow-hidden {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #bdc3c7;
+}
+
+/* Other CSS properties */
+.outline-example {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  outline: 2px solid #8e44ad;
+}
+
+.cursor-example {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  background-color: #2ecc71;
+  color: white;
+  cursor: pointer; /* Changes the cursor to a pointer */
+}
+
+.resize-example {
+  width: 200px;
+  height: 100px;
+  margin: 10px 0;
+  resize: both; /* Allows resizing both horizontally and vertically */
+}
+
+.caret-color-example {
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  caret-color: #e74c3c; /* Custom caret color */
+}
